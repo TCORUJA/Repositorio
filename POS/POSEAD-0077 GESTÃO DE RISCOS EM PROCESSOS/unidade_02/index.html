@@ -1,0 +1,509 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<title>PÓS 100% EAD</title>
+
+	<!-- Fonts & Icons -->
+	<!--<link rel="icon" href="https://unigranrio.blackboard.com/bbcswebdav/institution/nead_wd/templates/2020/v3.6/favicon.ico" type="image/x-icon">-->
+
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=PT+Sans:400,400i,700,700i&display=swap&subset=latin-ext">
+	<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+
+	<!-- CSS -->
+	<link rel="stylesheet" href="https://unigranrio.blackboard.com/bbcswebdav/institution/nead_wd/templates/2020/v3.6/css/vendor/materialize.custom.css">
+	<link rel="stylesheet" href="https://unigranrio.blackboard.com/bbcswebdav/institution/nead_wd/templates/2020/v3.6/css/vendor/materialize-grid.custom.css">
+	<link rel="stylesheet" href="https://unigranrio.blackboard.com/bbcswebdav/institution/nead_wd/templates/2020/v3.6/css/vendor/materialize-mq.custom.css">
+	<!-- UIkit -->
+	<link rel="stylesheet" href="https://unigranrio.blackboard.com/bbcswebdav/institution/nead_wd/templates/2020/v3.6/css/vendor/uikit.min.css">
+	<!-- Anicollection (animações) -->
+	<link rel="stylesheet" href="https://unigranrio.blackboard.com/bbcswebdav/institution/nead_wd/templates/2020/v3.6/css/vendor/anicollection.min.css">
+	<!-- Media Player -->
+	<link rel="stylesheet" href="https://unigranrio.blackboard.com/bbcswebdav/institution/nead_wd/templates/2020/v3.6/css/vendor/plyr.css">
+
+	<link rel="stylesheet" href="https://unigranrio.blackboard.com/bbcswebdav/institution/nead_wd/templates/2020/v3.6/css/_colors.css">
+	<link rel="stylesheet" href="https://unigranrio.blackboard.com/bbcswebdav/institution/nead_wd/templates/2020/v3.6/css/_components.css">
+	<link rel="stylesheet" href="https://unigranrio.blackboard.com/bbcswebdav/institution/nead_wd/templates/2020/v3.6/css/_helper.css">
+	<link rel="stylesheet" href="https://unigranrio.blackboard.com/bbcswebdav/institution/nead_wd/templates/2020/v3.6/css/main.css">
+	<link rel="stylesheet" href="https://unigranrio.blackboard.com/bbcswebdav/institution/nead_wd/templates/2020/v3.6/css/theme.pos100.css">
+</head>
+
+<body id="uni" data-template="pos100" class="switcher-nav top-fixed uk-visible-toggle">
+	<!-- TOP & NAVEGAÇÂO FIXA -->
+	<header class="top-bar">
+		<div class="top-wrapper transition">
+			<!-- TÍTULO -->
+			<div class="main-title">
+				<span>Gestão de Riscos em Processos</span>
+			</div>
+			<!-- NAVEGAÇÂO TOPBAR -->
+			<nav class="nav-bar nav-wrapper no-padding">
+				<ul class="nav-menu nav-switcher hide-l-down no-margin">
+					<li class="nav-link"><a data-switcher="0" title="Programação" href="#cs1"><i class="material-icons">today</i> Programação</a></li>
+
+					<li><a class="dropdown-trigger" data-target="dropdown-one" href="#"><i class="material-icons">format_list_bulleted</i> Tópicos</a></li>
+
+					<ul id="dropdown-one" class="dropdown-content hide-on-med-and-down">
+						<li class="nav-link"><a data-switcher="1" title="Problematização" href="#cs2"><i class="material-icons">insert_comment</i> Problematização</a></li>
+						<li class="nav-link"><a data-switcher="2" title="Conteúdos Externos" href="#cs3"><i class="material-icons">book</i> Conteúdos Externos</a></li>
+						<li class="nav-link"><a data-switcher="3" title="Videoaula" href="#cs4"><i class="material-icons">ondemand_video</i> Videoaula</a></li>
+						<li class="nav-link"><a data-switcher="4" title="Saiba Mais" href="#cs5"><i class="material-icons">school</i> Saiba Mais</a></li>
+						<li class="nav-link"><a data-switcher="5" title="Indicação de Vídeo" href="#cs6"><i class="material-icons">video_library</i> Indicação de Vídeo</a></li>
+					</ul>
+
+					<li class="nav-link"><a data-switcher="6" title="Referências" href="#cs7"><i class="material-icons">import_contacts</i> Referências</a></li>
+
+					<li><a class="bg-cyan light hover" title="Download - Roteiro de Estudos" href="doc/roteiro-02.pdf" target="_blank"><i class="material-icons">local_library</i> Roteiro de Estudos</a></li>
+				</ul>
+			</nav>
+			<!-- NAVEGAÇÂO OFF-CANVAS - TRIGGER -->
+			<a class="nav-oc-trigger no-mg hide-xl-up" href="#">
+				<i class="menu material-icons white-text sidenav-trigger" data-target="nav-oc">menu</i>
+				<i class="close material-icons white-text sidenav-close">close</i>
+			</a>
+		</div>
+	</header>
+	<!-- NAVEGAÇÂO OFF-CANVAS -->
+	<nav id="nav-oc" class="nav-off-canvas">
+		<ul class="nav-menu nav-switcher">
+			<li><a class="bg-cyan hover" title="Download - Roteiro de Estudos" href="doc/roteiro-02.pdf" target="_blank"><i class="material-icons">local_library</i> Roteiro de Estudos</a></li>
+
+			<li class="nav-link"><a data-switcher="0" title="Programação" href="#cs1"><i class="material-icons">today</i> Programação</a></li>
+			<li class="nav-link"><a data-switcher="1" title="Problematização" href="#cs2"><i class="material-icons">insert_comment</i> Problematização</a></li>
+			<li class="nav-link"><a data-switcher="2" title="Conteúdos Externos" href="#cs3"><i class="material-icons">book</i> Conteúdos Externos</a></li>
+			<li class="nav-link"><a data-switcher="3" title="Videoaula" href="#cs4"><i class="material-icons">ondemand_video</i> Videoaula</a></li>
+			<li class="nav-link"><a data-switcher="4" title="Saiba Mais" href="#cs5"><i class="material-icons">school</i> Saiba Mais</a></li>
+			<li class="nav-link"><a data-switcher="5" title="Indicação de Vídeo" href="#cs6"><i class="material-icons">video_library</i> Indicação de Vídeo</a></li>
+			<li class="nav-link"><a data-switcher="6" title="Referências" href="#cs7"><i class="material-icons">import_contacts</i> Referências</a></li>
+		</ul>
+	</nav>
+
+	<!--CAPA-->
+	<div id="cover" class="section absolute go g-cyan-green cover-animate">
+		<div class="cover-img uk-animation-kenburns"></div>
+		<div class="cover-overlay"></div>
+		<div class="cover-title">
+			<h1>Gestão de Riscos em Processos</h1>
+		</div>
+		<a class="scroll-arrow" href="#main-content"><i class="material-icons bounce animated infinite">keyboard_arrow_down</i></a>
+	</div>
+
+	<!-- Swicher Content Index: https://getuikit.com/docs/switcher -->
+	<ul class="content-index hidden" uk-switcher="connect: #main-content; active: 0; animation: uk-animation-fade">
+		<li class="nav-link"><a data-switcher="0" href="#cs1"></a></li>
+		<li class="nav-link"><a data-switcher="1" href="#cs2"></a></li>
+		<li class="nav-link"><a data-switcher="2" href="#cs3"></a></li>
+		<li class="nav-link"><a data-switcher="3" href="#cs4"></a></li>
+		<li class="nav-link"><a data-switcher="4" href="#cs5"></a></li>
+		<li class="nav-link"><a data-switcher="5" href="#cs6"></a></li>
+		<li class="nav-link"><a data-switcher="6" href="#cs7"></a></li>
+	</ul>
+
+	<div id="main-content" class="uk-switcher bg-content">
+		<!--PROGRAMAÇÃO - CONTENT SECTION 1 -->
+		<div id="cs1" data-cc="on" class="programacao section">
+			<div class="container">
+				<div class="section-title squares">
+					<span class="pill bg-transparent bd-2 bd-solid bd-green uk-position-center-left"><i class="material-icons">today</i></span>
+					<h2 class="title-text">
+						<span>Programação</span>
+					</h2>
+				</div>
+
+				<div class="row">
+					<div class="col s12 m11 l9 center">
+						<!-- EXEMPLO DE DROPCAPS (CAPITULAR) -->
+						<p class="txt-dropcap txt-dcs-green">Antes de iniciar seus estudos, considere que você tem 3 semanas para concluir sua disciplina. Cada disciplina tem sua característica e roteiros de estudos definidos, com objetivos, leituras obrigatórias e complementares e atividades. Para concluir o estudo de cada roteiro, estima-se que você precisará, em média, de 7 horas de dedicação. </p>
+					</div>
+
+					<div class="col s12 m11 l9 center">
+
+						<div class="bx tbl-box">
+							<table class="tbl">
+								<thead class="txt-center txt-white bg-green bg-dark-1">
+									<tr>
+										<th colspan="2">Roteiro de Estudo 2</th>
+									</tr>
+								</thead>
+
+								<tbody class="txt-center">
+									<tr>
+										<td class="txt-white bg-green">Objetivos</td>
+										<td class="txt-left">
+											<p><strong>Esperamos que, ao final desta semana, você esteja apto a:</strong> <br>
+											Identificar riscos no contexto de uma organização.<br>
+											Estabelecer respostas aos riscos, embasado na avaliação deles.
+											</p>
+										</td>
+									</tr>
+									<tr>
+										<td class="txt-white bg-green">Leituras</td>
+										<td class="txt-left">
+											<ol>
+												<li>FRAPORTI, S.; BARRETO, J. S. <strong>Gerenciamento de riscos</strong>. Porto Alegre: SAGAH, 2018, p.37-52.</li>
+												<li>KAERCHER, A. R.; LUZ, D. F. <strong>Gerenciamento de riscos do ponto de vista da gestão da produção</strong>. Rio de Janeiro: Interciência, 2016, p.35-88.</li>
+												<li>BRASIL. Ministério da Infraestrutura. <strong>Manual de gestão de riscos dos processos de trabalho</strong>. Brasília: Comitê Estratégico de Governança, 2021, p.7-37.</li>
+											</ol>
+										</td>
+									</tr>
+									<tr>
+										<td class="txt-white bg-green">Videoaula</td>
+										<td class="txt-left">
+											<p>Como gerenciar riscos</p>
+										</td>
+									</tr>
+									<tr>
+										<td class="txt-white bg-green">Recursos</td>
+										<td class="txt-left">
+											<p>
+												<strong>Leituras Complementares:</strong> <br>
+												1. ROVAI, R. L. <strong>Modelo estruturado para gestão de riscos em projetos</strong>: estudo de múltiplos casos. 2005. 364 f. Tese (Doutorado em Engenharia de Produção) - Escola Politécnica da Universidade de São Paulo, São Paulo, 2005.<br>
+												2. PEDROSO, L. H. T. R. <strong>Uma sistemática para a identificação, análise qualitativa e análise quantitativa dos riscos em projetos</strong>. 2007. 151 f. Dissertação (Mestrado em Engenharia) - Universidade de São Paulo, São Paulo, 2007.
+											</p>
+
+											<p><strong>Vídeo Complementar:</strong> <br>
+											LUÍS CLÁUDIO FRANCO. <strong>Gestão de Riscos</strong> - Conceitos Fundamentais ISO 31000 - Aula 1. 2021. (40m27s).</p>
+										</td>
+									</tr>
+								</tbody>
+							</table>
+						</div>
+
+					</div>
+				</div>
+
+			</div>
+		</div>
+
+		<!--PROBLEMATIZAÇÃO - CONTENT SECTION 2 -->
+		<div id="cs2" data-cc="on" class="problematizacao section">
+			<div class="container">
+				<div class="section-title squares">
+					<span class="pill bg-transparent bd-2 bd-solid bd-green uk-position-center-left"><i class="material-icons">insert_comment</i></span>
+					<h2 class="title-text">
+						<span>PROBLEMATIZAÇÃO</span>
+					</h2>
+				</div>
+
+				<div class="row">
+
+					<div class="col s12 m11 m-center l6">
+						
+						<p>Para darmos continuidade aos nossos estudos, apresentaremos uma situação-problema, para que você reflita sobre o(s) questionamento(s) exposto(s). Ao longo de todo o conteúdo, você encontrará as respostas e reflexões sobre os assuntos abordados.</p>
+						
+						<h4><strong>Tudo bem até o momento, mas...</strong></h4>
+
+						<!-- EXEMPLO DE DROPCAPS (CAPITULAR) -->
+						<p class="txt-dropcap txt-dcs-green">Digamos que você foi contratado pela Super Eficiente S.A., consultoria especializada em desenvolvimento e melhoria de processos, empresa líder e referência principal no mercado nacional, contando com mais de 5.000 colaboradores e uma carteira com quase 1.000 clientes, os quais contratam esses serviços para sucessivos projetos de melhoria de qualidade, eficiência e eficácia de processos de trabalho diversos.</p>
+
+						<p>A trilha de sucesso da Super Eficiente é bastante robusta. Mas o CEO da empresa começa a externar preocupações: como será o futuro da empresa? Quais fatores e fenômenos influenciarão esse futuro? Eles serão favoráveis ou colocarão a continuidade e sobrevivência da empresa sob risco?</p>
+
+					</div>
+
+					<div class="col s12 m11 m-center l6">
+						<p>Nesse cenário, você foi escolhido para desenvolver toda a estratégia de gestão de riscos da Super Eficiente e estabelecer os planos de ação para a empresa, com o intuito de torná-la resiliente. É uma grande responsabilidade e será um grande desafio para você.</p>
+
+						<p>Por onde começar? Como se preparar para um futuro incerto? Se tudo fluiu tão bem até agora, como se preparar para cenários diferentes? Pior ainda: que ações devem ser estabelecidas, se sequer as possíveis ocorrências no futuro são conhecidas? É necessário estabelecer ações para todos os riscos? Qual o custo para isso? Valerá a pena?</p>
+
+						<p>Essas são algumas das perguntas às quais você tem de estar pronto para responder, a partir do estudo desta disciplina. Bom estudo!</p>
+
+					</div>
+
+				</div>
+
+			</div>
+		</div>
+
+		<!--INDICAÇÃO DE CONTEÚDOS EXTERNOS - CONTENT SECTION 3 -->
+		<div id="cs3" data-cc="on" class="conteudo-externo section">
+			<div class="container">
+				<div class="section-title squares">
+					<span class="pill bg-transparent bd-2 bd-solid bd-green uk-position-center-left"><i class="material-icons">book</i></span>
+					<h2 class="title-text">
+						<span>INDICAÇÃO DE CONTEÚDOS EXTERNOS</span>
+					</h2>
+				</div>
+
+				<div class="row">
+					<div class="col s12 m11 l9 center">
+						
+						<h4 class="txt-green txt-dark-1">1. Análise de Riscos: a Matriz de Riscos</h4>
+
+						<p>A gestão de riscos envolve a identificação, a avaliação e a definição das respostas a potenciais situações ou eventos que possam alavancar ou atrapalhar o alcance dos objetivos de uma organização.</p>
+
+						<p>Nesta indicação de leitura, você vai estudar a contextualização do cenário de riscos e oportunidades, a análise de risco por meio da Matriz de Risco, e a análise de oportunidades por meio da Matriz de Oportunidade.</p>
+
+						<p>Para iniciar a leitura do livro sinalizado, é necessário fazer <em>login</em> no Portal Unigranrio e estar com a  <strong>Minha Biblioteca</strong> aberta.</p>
+						
+						<div class="bx bx-ghost br-5 mg-big-bottom">
+							<div class="bx-content">
+								<p>FRAPORTI, S.; BARRETO, J. S. <strong>Gerenciamento de riscos</strong>. Porto Alegre: SAGAH, 2018, p.37-52.</p>
+
+								<p>Título: Gerenciamento de riscos<br>
+								Páginas indicadas: 37 a 52<br>
+								Biblioteca: Minha Biblioteca</p>
+								
+								<a href="https://integrada.minhabiblioteca.com.br/reader/books/9788595023352/pageid/36" target="_blank" class="btn btn outside out-br"> Acesse aqui</a>
+								
+							</div>
+						</div>
+
+
+						<h4 class="txt-green txt-dark-1">2. Ferramentas Utilizadas na Gestão de Riscos</h4>
+
+						<p>A gestão de riscos engloba a identificação, análise e avaliação destes, para, a partir disso, estabelecer as ações para seu tratamento. Para tanto, além de ser adequado utilizarmos um processo estruturado, é recomendado que utilizemos ferramentas e técnicas de comprovada efetividade para a gestão dos riscos. Dentre elas, a técnica do <em>What If</em> (desenvolvida a partir de <em>checklist</em>), a Análise Preliminar de Riscos (APR), o <em>Failure Mode and Effect Analysis</em> (FMEA), a Análise de Riscos e Operabilidade (HAZOP), a Análise Quantitativa de Riscos (AQR), a Avaliação do Nível de Integridade e Segurança (SIL), a Técnica de Incidentes Críticos (TIC) e a Análise de Árvore de Falhas (FTA), as quais são estudadas neste material.</p>
+
+						<p>Para iniciar a leitura do livro sinalizado, é necessário fazer <em>login</em> no Portal Unigranrio e estar com a <strong>Biblioteca Virtual</strong> aberta.</p>
+
+						
+						<div class="bx bx-ghost br-5 mg-big-bottom">
+							<div class="bx-content">
+								
+								<p>KAERCHER, A. R.; LUZ, D. F. <strong>Gerenciamento de riscos do ponto de vista da gestão da produção</strong>. Rio de Janeiro: Interciência, 2016, p.35-88.</p>
+
+								<p>Título: Gerenciamento de riscos do ponto de vista da gestão da produção<br>
+								Páginas indicadas: 35 a 88<br>
+								Biblioteca: Biblioteca Virtual</p>
+
+																
+								<a href="https://plataforma.bvirtual.com.br/Leitor/Publicacao/123787/pdf/10?code=0S5581zdAMIAtUkhrqUJgXmH3+NckD0ieiaTlfK7dFenOX4ko79xgeZgnfV6EDekIv9H60/NV9u9no+j0WmEbA==" target="_blank" class="btn btn outside out-br"> Acesse aqui</a>
+								
+							</div>
+						</div>
+
+
+						<h4 class="txt-green txt-dark-1">3. Manual de Gestão de Riscos dos Processos de Trabalho</h4>
+
+						<p>É sabido que todas as organizações enfrentam incertezas em função de sua missão e das estratégias propostas, as quais podem possibilitar a materialização de eventos de risco, prejudicando o alcance dos objetivos, e isso não é diferente no Ministério da Infraestrutura e em outras organizações governamentais. </p>
+
+						<p>Este material apresenta a sistemática para a gestão de riscos dos processos de trabalho, inclusive os riscos para a integridade, no âmbito do MInfra, em consonância com a política de governança da Pasta, trazendo conceitos, definição de metodologia, formas, modelos, técnicas, sistemas e outros.</p>
+
+
+						<div class="bx bx-ghost br-5 mg-big-bottom">
+							<div class="bx-content">
+								
+								<p>BRASIL. Ministério da Infraestrutura. <strong>Manual de gestão de riscos dos processos de trabalho</strong>. Brasília: Comitê Estratégico de Governança, 2021, p.7-37.</p>
+
+								<p>Título: Manual de gestão de riscos dos processos de trabalho<br>
+								Páginas indicadas: 7 a 37</p>
+
+																
+								<a href="https://www.gov.br/infraestrutura/pt-br/assuntos/ManualGestao_de_Risco2021_Minfra_final.pdf" target="_blank" class="btn btn outside out-br"> Acesse aqui</a>
+								
+							</div>
+						</div>
+
+
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<!--VIDEOAULA - CONTENT SECTION 4 -->
+		<div id="cs4" data-cc="on" class="videoaula section valign-wrapper bg-02 bg-center bg-cover bg-fixed go g-blue-deep">
+			<div class="container">
+				<div class="section-title squares txt-white">
+					<span class="pill bg-transparent bd-2 bd-solid bd-green uk-position-center-left"><i class="material-icons">ondemand_video</i></span>
+					<h2 class="title-text">
+						<span>VIDEOAULA</span>
+					</h2>
+				</div>
+
+				<div class="row">
+					<div class="col s12 m11 l9 center txt-white">
+                        
+						<h4>Como Gerenciar Riscos</h4>
+                        
+						<p>A gestão de riscos lida com aspectos que nem sempre são intuitivos (ainda que, em alguns casos, sejam instintivos). Por exemplo, é comum que a gestão de riscos seja erroneamente interpretada como fugir de perigos, mas essa é uma visão míope e que pode levar a decisões de negócio inadequadas, afinal, não há qualquer negócio, investimento ou projeto que seja, de fato, livre de riscos e, da mesma forma, não é possível, em termos práticos, eliminarmos todos os riscos.</p>
+
+						<p>Assim, o reconhecimento dos riscos e saber como lidar com eles são fatores críticos de sucesso para qualquer atividade: se, por um lado, não devemos ignorar a existência e os potenciais efeitos dos ricos, também não devemos tentar eliminar todo e qualquer risco, pelo simples fato de que isso não somente é impossível, mas, principalmente, pelo fato de que a própria tentativa de o fazer é economicamente inviável.</p>
+
+						<p>Precisamos ter um método definido para gerenciar os riscos. Então, assista à videoaula a seguir, pois nela vamos discutir essa e outras considerações.</p>
+						
+						<iframe src="https://www.youtube.com/embed/qt6hodeJf-8?rel=0" frameborder="0" allowfullscreen width="1920" height="1080" uk-responsive></iframe>
+						
+					</div>
+				</div>
+
+			</div>
+		</div>
+
+		<!--SAIBA MAIS - CONTENT SECTION 5 -->
+		<div id="cs5" data-cc="on" class="saiba-mais section">
+			<div class="container">
+				<div class="section-title squares">
+					<span class="pill bg-transparent bd-2 bd-solid bd-green uk-position-center-left"><i class="material-icons">school</i></span>
+					<h2 class="title-text">
+						<span>SAIBA MAIS</span>
+					</h2>
+				</div>
+
+				<div class="row">
+					<div class="col s12 m11 l9 center">
+
+						<div class="bx bx-content bx-ghost mg-big-bottom br-5">
+							
+							<h4><strong>1. Modelo Estruturado para Gestão de Riscos em Projetos: Estudo de Múltiplos Casos</strong></h4>
+
+							<p>Esta tese apresenta quatro estudos de casos de gestão de riscos em projetos e propõe um modelo estruturado para a redução de perdas e melhoria de resultados. Os três primeiros casos identificaram lacunas e deficiências das práticas efetuadas pelas empresas e percebidas, enquanto o último estudo de caso validou o modelo proposto, demonstrando, assim, as implicações e oportunidades decorrentes de sua aplicação. Ao longo do texto, são apresentadas ferramentas e técnicas diversas para o planejamento da gestão dos riscos, identificação, avaliação, análise e planejamento de respostas aos riscos, bem como seu monitoramento e controle.</p>
+
+							<hr>
+							
+							<p>ROVAI, R. L. <strong>Modelo estruturado para gestão de riscos em projetos</strong>: estudo de múltiplos casos. 2005. 364 f. Tese (Doutorado em Engenharia de Produção) - Escola Politécnica da Universidade de São Paulo, São Paulo, 2005.</p>
+
+							<a href="https://www.teses.usp.br/teses/disponiveis/3/3136/tde-01092006-180244/publico/TeseRovai.pdf" target="_blank" class="btn outside out-br"> Acesse aqui</a>
+							
+						</div>
+
+						<div class="bx bx-content bx-ghost mg-big-bottom br-5">
+							
+							<h4><strong>2. Uma Sistemática para a Identificação, Análise Qualitativa e Análise Quantitativa dos Riscos em Projetos</strong></h4>
+
+							<p>Identificar o maior número possível de riscos, priorizá-los e quantificar seus impactos são os processos centrais para o um bom gerenciamento dos riscos nos projetos. A execução desses processos nos permite determinar o nível de confiança que existe para se atingir os objetivos do projeto. </p>
+
+							<p>Nesta tese, você verá uma sistemática visando medir o nível de confiança nas várias decisões que são tomadas durante a vida do projeto e também uma sistemática abrangente de identificação, análise qualitativa (priorização) e análise quantitativa dos riscos, testadas em várias empresas dos setores de Informática, Petroquímica e Bens de Capital, sendo que alguns desses modelos foram utilizados para demonstrar sua aplicação.</p>
+
+							<hr>
+							
+							<p>PEDROSO, L. H. T. R. <strong>Uma sistemática para a identificação, análise qualitativa e análise quantitativa dos riscos em projetos</strong>. 2007. 151 f. Dissertação (Mestrado em Engenharia) - Universidade de São Paulo, São Paulo, 2007.</p>
+
+							<a href="https://www.teses.usp.br/teses/disponiveis/3/3135/tde-03082007-174606/publico/TeseCompleta.pdf" target="_blank" class="btn outside out-br"> Acesse aqui</a>
+							
+						</div>
+
+					</div>
+				</div>
+
+			</div>
+		</div>
+
+		<!--INDICAÇÃO DE VÍDEO EXTERNO - CONTENT SECTION 6 -->
+		<div id="cs6" data-cc="on" class="indicacao-video section">
+			<div class="container">
+				<div class="section-title squares">
+					<span class="pill bg-transparent bd-2 bd-solid bd-green uk-position-center-left"><i class="material-icons">video_library</i></span>
+					<h2 class="title-text">
+						<span>INDICAÇÃO DE VÍDEO EXTERNO</span>
+					</h2>
+				</div>
+
+				<div class="row">
+					<div class="col s12 m11 l9 center">
+						
+						<h4><strong>Gestão de Riscos - Conceitos Fundamentais ISO 31000</strong></h4>
+
+						<p>Este vídeo sobre Gestão de Riscos, elaborado para capacitar os militares do CBMDF a respeito dos conceitos fundamentais presentes na NBR ISO 31000, tem como competências a serem desenvolvidas: (1) Compreender os conceitos relacionados à Gestão de Riscos e suas implicações no CBMDF; (2) Reconhecer a importância da Gestão de Riscos no processo de tomada de decisão organizacional na gestão pública; (3) Identificar e aplicar os conceitos estudados na estrutura e na prática corporativa do CBMDF; (4) Utilizar as diretrizes da ISO 31000:2018 de forma personalizada ao contexto da Corporação para o gerenciamento de riscos institucionais; e (5) Atuar levando em consideração o interesse público.</p>
+
+						<p>Além da versão de 2018 da citada norma, são discutidos o Modelo COSO, o Modelo das 3 Linhas de Defesa etc.</p>
+
+						<div class="bx bx-ghost br-5">
+							<div class="bx-content">
+								<p>LUÍS CLÁUDIO FRANCO. <strong>Gestão de Riscos</strong> - Conceitos Fundamentais ISO 31000 - Aula 1. 2021. (40m27s).</p>
+							</div>
+						</div>
+
+					</div>
+
+					<div class="col s12 m11 l8 center txt-center">
+	
+						<hr class="bd-white bd-top-5 bd-dotted s12 center">
+
+						<a href="https://youtu.be/BRKGhrzgSlc" target="_blank" class="btn btn-large">Acesse aqui</a>
+					</div>
+				</div>
+
+			</div>
+		</div>
+
+		<!--REFERÊNCIAS - CONTENT SECTION 9 -->
+		<div id="cs7" data-cc="on" class="referencias section bg-03 bg-cover bg-center go g-blue-deep">
+			<div class="container">
+				<div class="section-title squares txt-white">
+					<span class="pill bg-transparent bd-2 bd-solid bd-green uk-position-center-left"><i class="material-icons">import_contacts</i></span>
+					<h2 class="title-text">
+						<span>REFERÊNCIAS</span>
+					</h2>
+				</div>
+
+				<div class="row">
+
+					<div class="col s12 m11 l9 center txt-white">
+
+						<ul class="ref-content">
+							
+							<li class="ref-text">
+								<div>ABNT. <strong>NBR ISO/IEC 31000:2018</strong> - Gestão de riscos — Princípios e diretrizes. Rio de Janeiro, 2018.</div>
+							</li>
+
+							<li class="ref-text">
+								<div>ABNT. <strong>NBR ISO/IEC 31010:2021</strong> - Gestão de riscos — Técnicas para o processo de avaliação de riscos. Rio de Janeiro, 2021.</div>
+							</li>
+
+							<li class="ref-web">
+								<div>ANEEL. <strong>Manual de gestão de riscos</strong> – Processos. Brasília: Agência Nacional de Energia Elétrica, 2018. Disponível em: <a href="https://www.aneel.gov.br/documents/653889/19966798/Manual+Riscos+Processos/5c83ea68-2bb1-245d-e62f-91aa7e2082bc" target="_blank">https://www.aneel.gov.br/documents/653889/19966798/Manual+Riscos+Processos/5c83ea68-2bb1-245d-e62f-91aa7e2082bc</a>. Acesso em: 22 nov. 2021.</div>
+							</li>
+
+							<li class="ref-web">
+								<div>BRASIL. Ministério da Infraestrutura. <strong>Manual de gestão de riscos dos processos de trabalho</strong>. Brasília: Comitê Estratégico de Governança, 2021. Disponível em: <a href="https://www.gov.br/infraestrutura/pt-br/assuntos/ManualGestao_de_Risco2021_Minfra_final.pdf" target="_blank">https://www.gov.br/infraestrutura/pt-br/assuntos/ManualGestao_de_Risco2021_Minfra_final.pdf</a>. Acesso em: 29 nov. 2021.</div>
+							</li>
+
+							<li class="ref-text">
+								<div>FRAPORTI, S.; BARRETO, J. S. <strong>Gerenciamento de riscos</strong>. Porto Alegre: SAGAH, 2018.</div>
+							</li>
+
+							<li class="ref-text">
+								<div>KAERCHER, A. R.; LUZ, D. F. <strong>Gerenciamento de riscos do ponto de vista da gestão da produção</strong>. Rio de Janeiro: Interciência, 2016.</div>
+							</li>
+
+						  <li class="ref-video">
+								<div>LUÍS CLÁUDIO FRANCO. <strong> Gestão de Riscos</strong> - Conceitos Fundamentais ISO 31000 - Aula 1. 2021. (40m27s). Disponível em: <a href="https://youtu.be/BRKGhrzgSlc" target="_blank">https://youtu.be/BRKGhrzgSlc</a>. Acesso em: 29 nov. 2021.</div>
+							</li>
+
+						  <li class="ref-web">
+								<div>PEDROSO, L. H. T. R. <strong>Uma sistemática para a identificação, análise qualitativa e análise quantitativa dos riscos em projetos</strong>. 2007. 151 f. Dissertação (Mestrado em Engenharia) - Universidade de São Paulo, São Paulo, 2007. Disponível em: <a href="https://www.teses.usp.br/teses/disponiveis/3/3135/tde-03082007-174606/publico/TeseCompleta.pdf" target="_blank">https://www.teses.usp.br/teses/disponiveis/3/3135/tde-03082007-174606/publico/TeseCompleta.pdf</a>. Acesso em: 1 dez. 2021.</div>
+							</li>
+
+							<li class="ref-text">
+								<div>PMI - PROJECT MANAGEMENT INSTITUTE. <strong>Um guia do conhecimento em gerenciamento de projetos</strong> (Guia PMBOK). 5. ed. Newtown Square: PMI, 2012.</div>
+							</li>
+
+						  <li class="ref-web">
+								<div>ROVAI, R. L. <strong>Modelo estruturado para gestão de riscos em projetos</strong>: estudo de múltiplos casos. 2005. 364 f. Tese (Doutorado em Engenharia de Produção) - Escola Politécnica da Universidade de São Paulo, São Paulo, 2005. Disponível em: <a href="https://www.teses.usp.br/teses/disponiveis/3/3136/tde-01092006-180244/publico/TeseRovai.pdf" target="_blank">https://www.teses.usp.br/teses/disponiveis/3/3136/tde-01092006-180244/publico/TeseRovai.pdf</a>. Acesso em: 1 dez. 2021.</div>
+							</li>
+							
+						
+						</ul>
+
+					</div>
+				</div>
+
+			</div>
+		</div>
+
+	</div>
+
+	<div class="content-nav nav-switcher no-loop uk-invisible-hover transition">
+		<nav>
+			<a class="btn btn-floating btn-medium hidden previous left" data-switcher="previous" href="#"><i class="material-icons left">navigate_before</i></a>
+			<a class="btn btn-floating btn-medium hidden next right" data-switcher="next" href="#"><i class="material-icons right">navigate_next</i></a>
+		</nav>
+	</div>
+
+	<!-- JS -->
+	<script src="https://unigranrio.blackboard.com/bbcswebdav/institution/nead_wd/templates/2020/v3.6/js/vendor/jquery-3.4.1.min.js"></script>
+	<script src="https://unigranrio.blackboard.com/bbcswebdav/institution/nead_wd/templates/2020/v3.6/js/vendor/jquery-migrate-3.1.0.min.js"></script>
+	<!-- Materialize -->
+	<script src="https://unigranrio.blackboard.com/bbcswebdav/institution/nead_wd/templates/2020/v3.6/js/vendor/materialize.min.js"></script>
+	<!-- UIkit -->
+	<script src="https://unigranrio.blackboard.com/bbcswebdav/institution/nead_wd/templates/2020/v3.6/js/vendor/uikit.min.js"></script>
+	<!-- Media PLayer (plyr) -->
+	<script src="https://unigranrio.blackboard.com/bbcswebdav/institution/nead_wd/templates/2020/v3.6/js/vendor/plyr.polyfilled-3.5.6.min.js"></script>
+	<!-- Cover Scroll Trigger -->
+	<script src="https://unigranrio.blackboard.com/bbcswebdav/institution/nead_wd/templates/2020/v3.6/js/vendor/jquery.scroll-trigger.min.js"></script>
+
+	<script src="https://unigranrio.blackboard.com/bbcswebdav/institution/nead_wd/templates/2020/v3.6/js/main.js"></script>
+</body>
+</html>
