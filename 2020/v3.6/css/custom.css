@@ -1,0 +1,20 @@
+/*	Custom Styles
+*	Editar de acordo com necessidades especificas de cada unidade.
+*/
+
+/*	Usar os comentários por seção, o ID do template (#uni) e a classe da seção para personalização ou somente o ID #uni para
+*	estilos gerais.
+
+Exempo:
+
+*	/* UNIDADE * /
+*	#uni .classe-personalizada {
+*		color: #ccc;
+*	}
+*
+*	/* DESAFIO * /
+	#uni *	#uni .desafio .classe-personalizada {
+*		background: #aaa;
+*	}
+
+*/
