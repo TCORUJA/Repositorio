@@ -1,0 +1,66 @@
+/*	Custom Styles
+*	Editar de acordo com necessidades especificas de cada unidade.
+*/
+
+/*	Usar os comentários por seção, o ID do template (#uni) e a classe da seção para personalização ou somente o ID #uni para
+*	estilos gerais.
+
+Exempo:
+
+*	/* UNIDADE * /
+*	#uni .classe-personalizada {
+*		color: #ccc;
+*	}
+*
+*	/* DESAFIO * /
+	#uni *	#uni .desafio .classe-personalizada {
+*		background: #aaa;
+*	}
+
+*/
+
+
+#uni.grd #cover:after {background: none!important;}
+
+#uni .cover-title {
+    width: 50%!important;
+    word-break: break-word!important;
+    margin-left: 0rem!important;
+    padding: 3%!important;
+    bottom: -6rem!important;
+    vertical-align: bottom!important;
+    
+}
+
+#uni .cover-title>* {
+    font-size: 7vmin!important;
+}
+
+#uni, #cover, .scroll-arrow, i, .icon a:hover{background-image:none!important;}
+
+#uni #cover .scroll-arrow > * {color: #F49100!important;}
+
+#uni .exercicios .questions-nav .questions-index [class*="active"] .pill {
+    border-color: #F49100!important;
+    background:  #F49100!important;
+}
+
+#uni .exercicios .questions-nav .questions-index :not([class*="active"]) .pill:hover {
+    color: #FFFFFF!important;
+}
+
+#uni .exercicios .donut-svg .circle-svg {stroke:#FFFFFF!important;}
+
+li .uk-disabled {color: #999999!important;}
+
+#uni .resume-box >* {padding: 2rem!important;}
+
+#uni #cover .scroll-arrow > * {color: #2196F3!important;}
+
+#uni .flat-list {padding-left: 2rem!important;}
+
+.resume-content h4 {padding-left: 0.6rem!important;}                                          
+								
+                      
+
+
